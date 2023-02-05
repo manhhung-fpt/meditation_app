@@ -20,7 +20,7 @@ const Completed = ({ navigation }: Props) => {
   const backgroundColor = useThemeColor({}, 'completedBackground')
   const primaryColor = useThemeColor({}, 'completedPrimary')
   const onPressDonate = () => {
-    Linking.openURL('https://opencollective.com/heylinda/donate')
+    Linking.openURL('')
   }
   const onPressSkip = () => navigation.replace('Main')
 
