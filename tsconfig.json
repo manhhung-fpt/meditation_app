@@ -1,0 +1,8 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "lib": ["es2019"],
+    "strict": true
+  },
+  "exclude": ["./cypress/*"]
+}
